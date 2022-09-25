@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="App4.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="_7" Content="7" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Margin="0,592,0,0" VerticalAlignment="Top" Click="NumberButtonClick"/>
+        <Button x:Name="_1" Content="1" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Margin="0,184,0,0" VerticalAlignment="Top" Click="NumberButtonClick"/>
+        <Button x:Name="_6" Content="6" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Margin="604,388,0,0" VerticalAlignment="Top" Click="NumberButtonClick"/>
+        <Button x:Name="_4" Content="4" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Margin="0,388,0,0" VerticalAlignment="Top" Click="NumberButtonClick"/>
+        <Button x:Name="_2" Content="2" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Margin="302,184,0,0" VerticalAlignment="Top" Click="NumberButtonClick"/>
+        <Button x:Name="_3" Content="3" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Margin="604,184,0,0" VerticalAlignment="Top" Click="NumberButtonClick"/>
+        <Button x:Name="_5" Content="5" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Margin="302,388,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.45,-1.147" Click="NumberButtonClick"/>
+        <Button x:Name="_9" Content="9" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Margin="604,592,0,0" VerticalAlignment="Top" Click="NumberButtonClick"/>
+        <Button x:Name="_0" Content="0" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Margin="302,796,0,0" VerticalAlignment="Top" Click="NumberButtonClick"/>
+        <Button x:Name="_8" Content="8" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Margin="302,592,0,0" VerticalAlignment="Top" Click="NumberButtonClick"/>
+        <Button x:Name="_ravno" Content="=" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Margin="604,796,0,0" VerticalAlignment="Top" Click="_ravno_Click" />
+        <Button x:Name="_zap" Content="," Margin="0,796,0,0" VerticalAlignment="Top" Height="204" Width="302" Click="_zap_Click" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72"/>
+        <TextBlock x:Name="pole1" HorizontalAlignment="Left" Margin="604,24,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="111" Width="894" FontSize="72"/>
+        <TextBlock x:Name="pole2" HorizontalAlignment="Left" Margin="997,301,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="111" Width="501" FontSize="72"/>
+        <TextBlock x:Name="pole3" HorizontalAlignment="Left" Margin="997,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="111" Width="501" FontSize="72"/>
+        <TextBlock x:Name="znak" HorizontalAlignment="Left" Margin="911,241,0,0" TextWrapping="Wrap" TextAlignment="Center" Text="" VerticalAlignment="Top" Height="115" Width="130" FontSize="72"/>
+        <Button x:Name="plus" Content="+" Margin="906,592,0,0" VerticalAlignment="Top" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Click="SymbolButtonClick"/>
+        <Button x:Name="minus" Content="-" Margin="1208,592,0,0" VerticalAlignment="Top" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Click="SymbolButtonClick"/>
+        <Button x:Name="delit" Content="/" Margin="1208,796,0,0" VerticalAlignment="Top" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Click="SymbolButtonClick"/>
+        <Button x:Name="ymnoj" Content="*" Margin="906,796,0,0" VerticalAlignment="Top" Height="204" Width="302" IsHoldingEnabled="False" IsRightTapEnabled="False" IsDoubleTapEnabled="False" FontSize="72" Click="SymbolButtonClick"/>
+        <TextBlock x:Name="otvet" HorizontalAlignment="Left" Margin="875,349,0,0" TextWrapping="Wrap" Text=""  TextAlignment="Center" VerticalAlignment="Top" Height="112" Width="606" FontSize="72"/>
+        
+    </Grid>
+</Page>
